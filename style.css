@@ -4,10 +4,11 @@
 
 * { box-sizing: border-box; }
 
-body {
+html, body {
    background: #d7d7d7;
    color: #424242;
    font-family: 'Source Sans Pro', sans-serif;
+   font-size: 16px;
 }
 
 table{
