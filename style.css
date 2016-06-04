@@ -5,25 +5,30 @@
 * { box-sizing: border-box; }
 
 html, body {
-   background: #d7d7d7;
-   color: #424242;
-   font-family: 'Source Sans Pro', sans-serif;
-   font-size: 16px;
+  background-color: #d7d7d7;
+  color: #424242;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  padding: 0;
+  margin: 0;
 }
 
 table{
+  height: 40%;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width: auto;
-  transform: translate(-50%, -50%);
-}
-
-td{
-  padding: 0px 10px;
+  top: 30%;
+  width: 50%;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 0;
+  padding-bottom: 0;
   margin: 0px;
-
 }
+
 
 h1{
   font-weight: normal;
@@ -35,6 +40,10 @@ h2{
 
 #task{
   font-weight: bold;
+}
+
+#answer{
+  top: 52%;
 }
 
 footer{
@@ -58,7 +67,7 @@ a{
 .switch {
   display: block;
   position: relative;
- 	width: 70px;
+  width: 70px;
   height: 100px;
   margin: 70px auto;
 
