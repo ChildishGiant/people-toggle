@@ -1,7 +1,7 @@
 var withTasks = ["get married","eat a meal with people"];
 
 var withoutTasks = ["frolick in public parks naked",
-"dress how you like without being judged",];
+"dress how you like without being judged"];
 
 
 function gen(){
